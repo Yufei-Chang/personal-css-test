@@ -1,0 +1,64 @@
+/* # è l'id */
+#main-title {
+    color: aquamarine;
+}
+
+/* Tutti i tag h2 hanno lo stesso colore */
+h2 {
+    color: coral;
+}
+
+/* Usare il punto "." per inquadrare le classi specifiche */
+.violet-class {
+    color: darkgreen;
+}
+
+.paragraph {
+    color: #8a2be2;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+/* Per stilizzare i font dei testi usare fonti gratuiti come Google Fonts */
+.main-content {
+    color: maroon;
+    font-size: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: 700; /* spessore (grassetto) font */
+}
+.highlights {
+    color: burlywood;
+    background-color: cadetblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 500;
+}
+
+/* Background, altezza in pxl su sezioni o div NON si mette */
+.banner {
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 600;
+    background-color: burlywood;
+    height: 500px;
+    background-image: url(../img/4d4e417a-9b8e-4d70-8328-4988635a4cbd.webp);
+    background-position-x: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: initial;
+}
+
+.underbanner {
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
+
+.inner {
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
+    border: 6px solid black;
+}
